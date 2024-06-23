@@ -1,0 +1,102 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section#about {
+    background-color: #fff;
+}
+
+section#projects {
+    background-color: #e2e2e2;
+}
+
+section#contact {
+    background-color: #fff;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    /* Use a different font for headings if desired */
+}
+
+header, footer {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+}
